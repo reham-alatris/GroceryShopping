@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homepage"
+            android:icon="@drawable/home"
+            android:title="الرئيسية" />
+
+        <item
+            android:id="@+id/offers"
+            android:icon="@drawable/sale"
+            android:title="العروض" />
+
+    </group>
+
+    <item android:title="اخرى">
+        <menu>
+            <item
+                android:id="@+id/custprofile"
+                android:icon="@drawable/profile"
+                android:title="الحساب الشخصى" />
+
+        </menu>
+    </item>
+
+</menu>
